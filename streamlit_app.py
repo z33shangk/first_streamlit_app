@@ -50,7 +50,6 @@ except URLError as e:
 #60streamlit.text(my_data_row)
 #fetch secrets from streamlit variables
 
-my_data_row = my_cur.fetchall()
 streamlit.text("The fruit load list contains")
 #Snowflake-related functions
 def get_fruit_load_list():
